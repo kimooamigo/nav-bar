@@ -1,0 +1,31 @@
+/**
+ * Simple HTML + CSS horizontal navigation
+ */
+
+.nav {
+	padding:0;
+}
+.nav li {
+	float: left;
+	list-style: none;
+	margin:0;
+	white-space-collapse: discard;
+}
+.nav li a {
+	border: 1px solid #ddd;
+	border-right-color: #fff;
+	color: #333;
+	display: block;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:0.8em;
+	padding: 10px 20px;
+	text-decoration: none;
+}
+
+.nav li:last-child a {
+	border-right-color: #ddd;
+}
+.nav li a:hover {
+	background: #eee;
+	border: 1px solid #aaa;
+}
