@@ -21,10 +21,6 @@
 	padding: 10px 20px;
 	text-decoration: none;
 }
-
-.nav li:last-child a {
-	border-right-color: #ddd;
-}
 .nav li a:hover {
 	background: #d90075;
 	color: #fff;
